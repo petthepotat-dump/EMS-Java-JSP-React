@@ -1,0 +1,81 @@
+2024-09-27 22:59:13 INFO  com.petthepotat.ems.App - Starting App using Java 17.0.11 on Peters-MacBook-Air.local with PID 79958 (/Users/petthepotat/Documents/code/apps/EMS-Java-Fullstack/EMS-Fullstack-Server/target/classes started by petthepotat in /Users/petthepotat/Documents/code/apps/EMS-Java-Fullstack/EMS-Fullstack-Server)
+2024-09-27 22:59:13 INFO  com.petthepotat.ems.App - No active profile set, falling back to default profiles: default
+2024-09-27 22:59:13 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-27 22:59:13 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2024-09-27 22:59:13 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-09-27 22:59:13 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-27 22:59:13 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-27 22:59:13 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2024-09-27 22:59:13 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-27 22:59:13 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 394 ms
+2024-09-27 22:59:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-27 22:59:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-27 22:59:13 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-27 22:59:13 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-09-27 22:59:13 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-09-27 22:59:13 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-09-27 22:59:13 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-27 22:59:13 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-27 22:59:13 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-27 22:59:14 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b762988, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e7e84f8, org.springframework.security.web.header.HeaderWriterFilter@2f2dc407, org.springframework.security.web.authentication.logout.LogoutFilter@44a485bc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@713497cd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@320770d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67689c81, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24f2608b, org.springframework.security.web.session.SessionManagementFilter@24668b5b, org.springframework.security.web.access.ExceptionTranslationFilter@acd115d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@760c777d]
+2024-09-27 22:59:14 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-27 22:59:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-09-27 22:59:14 INFO  com.petthepotat.ems.App - Started App in 1.432 seconds (JVM running for 1.635)
+2024-09-27 22:59:46 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-27 22:59:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-27 22:59:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-27 23:00:54 INFO  com.petthepotat.ems.App - Starting App using Java 17.0.11 on Peters-MacBook-Air.local with PID 80032 (/Users/petthepotat/Documents/code/apps/EMS-Java-Fullstack/EMS-Fullstack-Server/target/classes started by petthepotat in /Users/petthepotat/Documents/code/apps/EMS-Java-Fullstack/EMS-Fullstack-Server)
+2024-09-27 23:00:54 INFO  com.petthepotat.ems.App - No active profile set, falling back to default profiles: default
+2024-09-27 23:00:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-27 23:00:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2024-09-27 23:00:54 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-09-27 23:00:54 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-27 23:00:54 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-27 23:00:54 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2024-09-27 23:00:54 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-27 23:00:54 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 381 ms
+2024-09-27 23:00:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-27 23:00:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-27 23:00:54 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-27 23:00:54 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-09-27 23:00:54 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-09-27 23:00:54 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-09-27 23:00:55 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-27 23:00:55 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-27 23:00:55 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-27 23:00:55 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64e89bb2, org.springframework.security.web.context.SecurityContextPersistenceFilter@8c18bde, org.springframework.security.web.header.HeaderWriterFilter@152035eb, org.springframework.security.web.authentication.logout.LogoutFilter@77db231c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2212e291, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ae16aa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3151277f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15fe020d, org.springframework.security.web.session.SessionManagementFilter@333a2df2, org.springframework.security.web.access.ExceptionTranslationFilter@42805abe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27b7204]
+2024-09-27 23:00:55 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-27 23:00:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-09-27 23:00:55 INFO  com.petthepotat.ems.App - Started App in 1.347 seconds (JVM running for 1.47)
+2024-09-27 23:06:51 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-27 23:06:51 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-27 23:06:51 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2024-09-27 23:35:21 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-27 23:35:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-27 23:35:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-27 23:35:24 INFO  com.petthepotat.ems.App - Starting App using Java 17.0.11 on Peters-MacBook-Air.local with PID 80794 (/Users/petthepotat/Documents/code/apps/EMS-Java-Fullstack/EMS-Fullstack-Server/target/classes started by petthepotat in /Users/petthepotat/Documents/code/apps/EMS-Java-Fullstack/EMS-Fullstack-Server)
+2024-09-27 23:35:24 INFO  com.petthepotat.ems.App - No active profile set, falling back to default profiles: default
+2024-09-27 23:35:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-27 23:35:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2024-09-27 23:35:25 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-09-27 23:35:25 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-27 23:35:25 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-27 23:35:25 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2024-09-27 23:35:25 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-27 23:35:25 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 377 ms
+2024-09-27 23:35:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-27 23:35:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-27 23:35:25 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-27 23:35:25 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-09-27 23:35:25 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-09-27 23:35:25 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-09-27 23:35:25 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-27 23:35:25 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-27 23:35:25 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-27 23:35:26 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@796642ae, org.springframework.security.web.context.SecurityContextPersistenceFilter@1fd35a92, org.springframework.security.web.header.HeaderWriterFilter@2aeb7c4c, org.springframework.security.web.authentication.logout.LogoutFilter@6a3a56de, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@a93c798, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ced0537, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60b4d934, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16f8df70, org.springframework.security.web.session.SessionManagementFilter@5d98364c, org.springframework.security.web.access.ExceptionTranslationFilter@2befb16f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e3dc24f]
+2024-09-27 23:35:26 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-27 23:35:26 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-09-27 23:35:26 INFO  com.petthepotat.ems.App - Started App in 1.63 seconds (JVM running for 1.748)
+2024-09-27 23:35:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-27 23:35:29 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-27 23:35:29 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
