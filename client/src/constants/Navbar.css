@@ -1,0 +1,77 @@
+/* Basic styles for the navbar container */
+.navbar {
+    display: flex;
+    left: 0px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001728;
+    /* Dark background color */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Optional shadow for depth */
+    position: relative;
+    /* Makes the navbar stick to the top on scroll */
+    top: 0;
+    z-index: 1000;
+    /* Ensures the navbar stays on top of other content */
+
+    /* make corners rounded */
+    border-radius: 10px;
+
+    min-width: 500px;
+}
+
+/* Styles for the navbar list */
+.navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    /* Space between items */
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for each navbar item */
+.navbar-item {
+    cursor: pointer;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+/* Styles for the navbar links */
+.navbar-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    /* White text color */
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+/* Hover effect for navbar items */
+.navbar-item:hover .navbar-link {
+    color: #0077ff;
+    /* Change color on hover */
+}
+
+/* Active state styling */
+.navbar-item.active .navbar-link {
+    font-weight: bold;
+    border-bottom: 2px solid #1e90ff;
+    /* Highlight active item */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
