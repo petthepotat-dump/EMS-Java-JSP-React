@@ -1,8 +1,6 @@
 com/petthepotat/ems/employee/Employee.class
 com/petthepotat/ems/config/SecurityConfig.class
 com/petthepotat/ems/employee/EmployeeService.class
-com/petthepotat/ems/config/WebConfig.class
 com/petthepotat/ems/employee/EmployeeController.class
 com/petthepotat/ems/employee/EmployeeRepository.class
-com/petthepotat/ems/config/WebConfig$1.class
 com/petthepotat/ems/App.class

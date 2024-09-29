@@ -1,6 +1,8 @@
 package com.petthepotat.ems.employee;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -8,8 +10,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/employees")  // Base URL for all endpoints in this controller
 public class EmployeeController {
-
-
     @Autowired
     private EmployeeService employeeService;  // Service layer to handle business logic
 
@@ -34,7 +34,13 @@ public class EmployeeController {
 
     // Example endpoint to delete an employee (awaits a DELETE request)
     @DeleteMapping("/{id}")
-    public void deleteEmployee(@PathVariable Long id) {
-        employeeService.deleteEmployee(id);
+    public ResponseEntity<String> deleteEmployee(@PathVariable Long id) {
+        // check if entity exists
+        if (employeeService.exists(id)){
+            employeeService.deleteEmployee(id);
+            return ResponseEntity.ok("Employee deleted successfully");
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Employee not found");
+        }
     }
 }

@@ -21,7 +21,8 @@ public class EmployeeService {
 
     public Employee updateEmployee(Long id, Employee employee) {
         Employee existingEmployee = employeeRepository.findById(id).orElseThrow(() -> new RuntimeException("Employee not found"));
-        existingEmployee.setName(employee.getName());
+        existingEmployee.setFirstName(employee.getFirstName());
+        existingEmployee.setLastName(employee.getLastName());
         existingEmployee.setPosition(employee.getPosition());
         existingEmployee.setDepartment(employee.getDepartment());
         return employeeRepository.save(existingEmployee);
@@ -29,5 +30,9 @@ public class EmployeeService {
 
     public void deleteEmployee(Long id) {
         employeeRepository.deleteById(id);
+    }
+
+    public boolean exists(Long id){
+        return employeeRepository.existsById(id);
     }
 }
